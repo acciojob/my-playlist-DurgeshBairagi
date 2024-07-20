@@ -1,22 +1,24 @@
 body{
 	background-color:rgb(204,204,204)
 }
-h1,h2{
+h1{
+	text-align:center;
+}
+h2{
 	text-align:center;
 }
 .player_one li{
 	list-style-type:none;
 }
 .player_one{
+	border:1px;
 	background-color:rgb(255,255,255);
 	border: 2px solid black;
 	border-radius:5px;
 	padding: 9px;
     height:120px;
 	width:95%
-	
-	
-	}
+}
 a{
 	text-decoration-line:none;
 }
@@ -24,7 +26,7 @@ a{
 	background-color: rgb(255, 255, 255); 
     border:2px solid black;
 	margin-inline:21px;
-	border-radius:9px;
+	border-radius:5px;
 	
 }
 .player_two>video{

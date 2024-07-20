@@ -4,40 +4,37 @@ body{
 h1,h2{
 	text-align:center;
 }
-.list{
-	background-color:white;
-	border: 1px solid black;
-	border-radius:10px;
-	padding: 10px;
-	padding-left:0px;
-	margin:10px;
+.player_one{
+	background-color:rgb(255,255,255);
+	border: 2px solid black;
+	border-radius:5px;
+	padding: 9px;
+    height:120px;
+	width:95%
 	
 	
 	}
 a{
 	text-decoration-line:none;
 }
-li{
-		text-align:left;
+.player_two{
+	background-color: rgb(255, 255, 255); 
+    border:2px solid black;
+	margin-inline:21px;
 	
 }
-ul{
-
-	list-style-type:none;
+.player_two>video{
+	width:96%;
+	margin-inline:7px;
+	padding-top:7px;
 }
-.media{
-	background-color: rgb(255, 255, 255); 
-	padding:10px; 
-	border-radius:10px;
-	border:1px solid black;
-	margin:50px;
-	margin-top:0px
+.player_two>audio{
+	width:96%;
+	margin-inline:7px;
+	padding-top:7px;
 }
-.player_one{
-	width:100%;
-}
-.player_two{
-	width:100%
+.player_two p{
+	margin-left:10px;
 }
 
 

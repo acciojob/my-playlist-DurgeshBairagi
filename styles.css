@@ -4,6 +4,9 @@ body{
 h1,h2{
 	text-align:center;
 }
+.player_one li{
+	list-style-type:none;
+}
 .player_one{
 	background-color:rgb(255,255,255);
 	border: 2px solid black;
@@ -21,6 +24,7 @@ a{
 	background-color: rgb(255, 255, 255); 
     border:2px solid black;
 	margin-inline:21px;
+	border-radius:9px;
 	
 }
 .player_two>video{
